@@ -3,7 +3,7 @@
 > Testing DOM mods with qunit
 
 ## Repository URL
-- [web page](https://sushma4548.github.io/Qunit/ "https://sushma4548.github.io/Qunit/")
+- [web page](https://harsha4824.github.io/Qunit/ "https://harsha4824.github.io/Qunit/")
 ## Team Slide
 ![image](W4.png "My Team of four")
 ## References
