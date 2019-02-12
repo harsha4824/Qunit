@@ -40,6 +40,13 @@ QUnit.test("Here's a test that should always pass", function (assert) {
  
     assert.throws(function () { calculate1(); }, /The given argument is not a number/, 'no Argument method check');
  });
+
+ QUnit.test('Testing DOM Manipulation', function (assert) {
+ 
+   assert.equal(document.getElementById('one').innerHTML,"This p element has id one.",'DOM manipulation testing.');
+   assert.equal(document.getElementsByClassName('classone').innerHTML,"This p element belongs to classone.",'DOM manipulation testing.');
+   assert.equal(calculate1(10,10),document.getElementById('result').innerHTML,'DOM manipulation testing.');
+});
  
  
  
